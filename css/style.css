@@ -1,0 +1,39 @@
+section{
+    padding: 2% 0;
+    height: 100vh;
+}
+.img-item img{
+    cursor: pointer;
+}
+.lightBox-container{
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+.lightItem{
+    position: relative;
+    background-image: url(../img/1.jpg);
+    width: 80%;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+}
+.lightItem .controll{
+    margin: 0 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+    color: rgb(206, 24, 24);
+}
+.lightItem .controll i:hover{
+    cursor: pointer;
+    color: blue;
+}
+#close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 1.3rem;
+}
